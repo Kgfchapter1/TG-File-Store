@@ -23,8 +23,8 @@ async def start(c, m, cb=False):
         send_msg = await m.reply_text("**Processing...**", quote=True)
 
     owner = await c.get_users(int(OWNER_ID))
-    owner_username = owner.username if owner.username else 'Ns_bot_updates'
-
+    owner_username = owner.username if owner.username else 'KDramasFlix'
+    user_channel = https://t.me/{UPDATE_CHANNEL}
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')}
 
@@ -33,7 +33,7 @@ async def start(c, m, cb=False):
 `You can store your Telegram Media for permanent Link!`
 
 
-**👲 Maintained By:** {UPDATE_CHANNEL}
+This Is A Private Bot for {user_channel}.
 """
 
     # Buttons
