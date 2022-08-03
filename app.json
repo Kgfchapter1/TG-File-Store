@@ -33,6 +33,11 @@
       "value": "",
       "required": false
     },
+    "UPDATE_GROUP": {
+      "description": "Your bot support group like Ns_bot_updates . (Leave empty it you don't want to add)",
+      "value": "",
+      "required": false
+    },
     "OWNER_ID": {
       "description": "give your telegram user id here",
       "value": ""
