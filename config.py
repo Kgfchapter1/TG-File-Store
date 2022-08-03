@@ -9,6 +9,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID"))
 PROTECT_CONTENT = True
 UPDATE_GROUP = os.environ.get("UPDATE_GROUP", "")
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 AUTH_USERS = list(int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")) if os.environ.get("AUTH_USERS") else []
 if OWNER_ID not in AUTH_USERS:
     AUTH_USERS.append(OWNER_ID)
