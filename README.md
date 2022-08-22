@@ -16,7 +16,7 @@ This is a telegram bot helps you to store your files and get the share able perm
 
 - `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
 
-- `DB_CHANNEL_ID:` Your telegram channel id like -1001355218755
+- `DB_CHANNEL_ID:` Your telegram channel id like -1001309128216
 
 - `UPDATE_CHANNEL:` Your telegram channel username without @ to add force sub. Leave it empty if you don't wanna add. Example: Ns_bot_updates
 
@@ -35,7 +35,7 @@ This is a telegram bot helps you to store your files and get the share able perm
 - Step 3: Edit Deploy link button! and change to your USERNAME and REPO Name.
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Your_Github_user_Name/Your_Repo_Name)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kgfchapter1/TG-File-Store)
 
 ## Tools Used 🧰
 - Language Used [<img src="https://telegra.ph/file/960ed8709acaf8c68b894.jpg" width="100" height="30">](https://www.python.org/)
